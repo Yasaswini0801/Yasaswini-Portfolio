@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neelisetty Yasaswini | AI & ML Specialist Portfolio</title>
+  <meta name="description" content="Portfolio of Neelisetty Yasaswini - Computer Science & Engineering student specializing in AI and Machine Learning at Kalasalingam University.">
+  <meta name="author" content="Neelisetty Yasaswini">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Decorative Gradients -->
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-3" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-accent">&lt;</span>Yasaswini<span class="logo-accent">/&gt;</span>
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#interests" class="nav-link">Interests</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-close" id="nav-close" aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <a href="Yasaswini_Resume.pdf" class="btn btn-outline nav-btn" title="View Yasaswini's Resume" target="_blank" rel="noopener noreferrer">
+          <span>Resume</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>B.Tech CSE (AI &amp; ML) &bull; Kalasalingam University</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Neelisetty Yasaswini</span>
+          </h1>
+
+          <div class="hero-typing-wrapper">
+            <span class="hero-prefix">Specializing in</span>
+            <span class="typing-text" id="typing-text"></span>
+            <span class="cursor">&nbsp;</span>
+          </div>
+
+          <p class="hero-description">
+            Computer Science and Engineering undergraduate passionate about Artificial Intelligence, 
+            Machine Learning, and Computer Vision. Dedicated to designing intelligent algorithms and 
+            practical deep learning models that solve complex real-world challenges.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span class="socials-label">Connect:</span>
+            <a href="https://www.linkedin.com/in/neelisetty-yasaswini-9b25272b6" class="social-link" title="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Yasaswini0801" class="social-link" title="GitHub Profile" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:yasaswini8888@gmail.com" class="social-link" title="Email: yasaswini8888@gmail.com">
+              <i class="fa-solid fa-at"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-card">
+            <div class="code-card-header">
+              <div class="window-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="code-filename">yasaswini_profile.py</span>
+            </div>
+            <pre class="code-content"><code><span class="keyword">class</span> <span class="class-name">AIEngineer</span>:
+    <span class="keyword">def</span> <span class="func">__init__</span>(<span class="param">self</span>):
+        <span class="param">self</span>.name = <span class="str">"Neelisetty Yasaswini"</span>
+        <span class="param">self</span>.degree = <span class="str">"B.Tech CSE (AI & ML)"</span>
+        <span class="param">self</span>.university = <span class="str">"Kalasalingam University"</span>
+        <span class="param">self</span>.duration = <span class="str">"2022 - 2026"</span>
+        <span class="param">self</span>.cgpa = <span class="number">8.58</span>
+
+    <span class="keyword">def</span> <span class="func">core_passions</span>(<span class="param">self</span>):
+        <span class="keyword">return</span> [
+            <span class="str">"Machine Learning"</span>,
+            <span class="str">"Deep Learning"</span>,
+            <span class="str">"Computer Vision"</span>,
+            <span class="str">"Generative AI"</span>
+        ]
+
+<span class="comment"># Ready to create impactful AI solutions</span>
+candidate = <span class="class-name">AIEngineer</span>()</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Profile Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-about">
+            <div class="card-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3>AI &amp; Machine Learning Focused</h3>
+            <p>
+              I am a Computer Science and Engineering graduate specializing in Artificial Intelligence and Machine Learning at Kalasalingam University.
+            </p>
+            <p>
+              My academic and project experience centers around applying state-of-the-art deep learning architectures—such as 
+              MobileNet, CNNs, DenseNet, YOLOv9, and ResNet18—to solve high-impact vision and pattern recognition tasks.
+              I take pride in writing structured, efficient code and continually expanding my knowledge across core computer science principles.
+            </p>
+          </div>
+
+          <div class="about-stat-cards">
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="stat-info">
+                <h4>8.58 / 10</h4>
+                <p>Cumulative GPA</p>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+              <div class="stat-info">
+                <h4>2022 &ndash; 2026</h4>
+                <p>B.Tech Program Duration</p>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-microchip"></i></div>
+              <div class="stat-info">
+                <h4>AI &amp; ML</h4>
+                <p>Core Specialization</p>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+              <div class="stat-info">
+                <h4>3 Certifications</h4>
+                <p>Key Certifications</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge">Undergraduate Degree</span>
+                  <h3 class="degree-title">B.Tech in Computer Science and Engineering</h3>
+                  <h4 class="specialization-title">Specialization in Artificial Intelligence &amp; Machine Learning</h4>
+                  <p class="institution-name">
+                    <i class="fa-solid fa-building-columns"></i> Kalasalingam University
+                  </p>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-period"><i class="fa-regular fa-calendar"></i> 2022 &ndash; 2026</span>
+                  <span class="timeline-gpa"><i class="fa-solid fa-award"></i> CGPA: <strong>8.58 / 10</strong></span>
+                </div>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Pursuing rigorous academic coursework in Artificial Intelligence, Machine Learning, Deep Learning, 
+                  Data Structures and Algorithms, Database Management Systems, Object-Oriented Programming, and Operating Systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">Verified technical proficiencies built through academic coursework and hands-on projects.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- AI & ML Category -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-network-wired"></i></div>
+              <h3>AI &amp; Machine Learning</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><i class="fa-solid fa-check"></i> Machine Learning</li>
+              <li><i class="fa-solid fa-check"></i> Deep Learning</li>
+              <li><i class="fa-solid fa-check"></i> Artificial Intelligence</li>
+              <li><i class="fa-solid fa-check"></i> PyTorch</li>
+              <li><i class="fa-solid fa-check"></i> TensorFlow</li>
+              <li><i class="fa-solid fa-check"></i> OpenCV</li>
+              <li><i class="fa-solid fa-check"></i> Pandas</li>
+              <li><i class="fa-solid fa-check"></i> NumPy</li>
+            </ul>
+          </div>
+
+          <!-- Programming Languages & Web -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-code"></i></div>
+              <h3>Programming &amp; Web</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><i class="fa-solid fa-check"></i> Python</li>
+              <li><i class="fa-solid fa-check"></i> Java</li>
+              <li><i class="fa-solid fa-check"></i> SQL</li>
+              <li><i class="fa-solid fa-check"></i> HTML</li>
+              <li><i class="fa-solid fa-check"></i> CSS</li>
+              <li><i class="fa-solid fa-check"></i> JavaScript</li>
+            </ul>
+          </div>
+
+          <!-- Core Computer Science -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon"><i class="fa-solid fa-layer-group"></i></div>
+              <h3>Core Computer Science</h3>
+            </div>
+            <ul class="skill-tags">
+              <li><i class="fa-solid fa-check"></i> Data Structures and Algorithms</li>
+              <li><i class="fa-solid fa-check"></i> DBMS (Database Management Systems)</li>
+              <li><i class="fa-solid fa-check"></i> OOP (Object-Oriented Programming)</li>
+              <li><i class="fa-solid fa-check"></i> Operating Systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Hands-on Engineering</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world systems built with Deep Learning, Computer Vision, and AI pipelines.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Oral Cancer Detection -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-type-badge">
+                <i class="fa-solid fa-heart-pulse"></i> Healthcare AI
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Yasaswini0801" class="icon-btn" title="GitHub Profile / Repository" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Web Based Oral Cancer Detection</h3>
+              <p class="project-subtitle">Machine Learning &amp; Deep Learning Classification System</p>
+              
+              <p class="project-description">
+                Developed an intelligent web-based diagnostic system for the automated detection of oral cancer from medical imagery. 
+                Leveraged and benchmarked multiple deep neural network architectures to deliver accurate, non-invasive early detection support.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Utilized <strong>MobileNet</strong> for lightweight, high-speed mobile/web inference.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Implemented <strong>CNN</strong> (Convolutional Neural Networks) for targeted feature extraction.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Trained <strong>DenseNet</strong> to maximize feature reuse and gradient flow across layers.</span>
+                </div>
+              </div>
+
+              <div class="tech-stack-tags">
+                <span class="tag">MobileNet</span>
+                <span class="tag">CNN</span>
+                <span class="tag">DenseNet</span>
+                <span class="tag">Deep Learning</span>
+                <span class="tag">Machine Learning</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Fake Drug Detection -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-type-badge">
+                <i class="fa-solid fa-pills"></i> Computer Vision &amp; LLM
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Yasaswini0801" class="icon-btn" title="GitHub Profile / Repository" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Fake Drug Detection System</h3>
+              <p class="project-subtitle">Image Recognition &amp; OCR Technology with Conversational AI</p>
+              
+              <p class="project-description">
+                Designed a comprehensive anti-counterfeit drug verification system that validates pharmaceutical authenticity 
+                through state-of-the-art object detection, text extraction from medicine packaging, and real-time interactive assistance.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Medicine image recognition powered by <strong>YOLOv9</strong> object detection.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Data annotation, augmentation, and dataset management conducted using <strong>Roboflow</strong>.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Engineered with <strong>Python</strong> and <strong>TensorFlow</strong> deep learning pipelines.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Integrated a <strong>Gemini AI chatbot</strong> to answer user queries regarding medicine safety and validation.</span>
+                </div>
+              </div>
+
+              <div class="tech-stack-tags">
+                <span class="tag">YOLOv9</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Python</span>
+                <span class="tag">Roboflow</span>
+                <span class="tag">Gemini AI</span>
+                <span class="tag">OCR</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Color-Invariant Saree Design Recognition -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-type-badge">
+                <i class="fa-solid fa-palette"></i> Vision Embeddings
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Yasaswini0801" class="icon-btn" title="GitHub Profile / Repository" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Color-Invariant Saree Design Recognition</h3>
+              <p class="project-subtitle">Deep Metric Learning &amp; Similarity Retrieval Engine</p>
+              
+              <p class="project-description">
+                Developed as an <strong>AI Engineer take-home assignment</strong> to match intricate textile and saree motifs 
+                irrespective of fabric color variations, lighting discrepancies, and dye differences.
+              </p>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Used an ImageNet-pretrained <strong>ResNet18</strong> backbone with its weights frozen and trained a lightweight projection head using <strong>PyTorch</strong>.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Generated compact <strong>128-dimensional image embeddings</strong> for visual pattern retrieval.</span>
+                </div>
+                <div class="highlight-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Implemented <strong>Cosine Similarity</strong> metrics for instant image retrieval and motif verification.</span>
+                </div>
+              </div>
+
+              <div class="tech-stack-tags">
+                <span class="tag">PyTorch</span>
+                <span class="tag">ResNet18</span>
+                <span class="tag">128D Embeddings</span>
+                <span class="tag">Cosine Similarity</span>
+                <span class="tag">Computer Vision</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Certifications</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Coursera</span>
+              <h3 class="cert-name">Deep Neural Networks with PyTorch</h3>
+              <p class="cert-desc">Advanced principles of deep neural network architectures, autograd, backpropagation, and PyTorch model building.</p>
+              <div class="cert-link-placeholder">
+                <span class="badge-verified"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                <!-- Replace href with your actual credential verification URL -->
+                <a href="#" class="cert-anchor" title="Add credential verification URL" target="_blank" rel="noopener noreferrer">
+                  <span>Verify Credential</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">CodeChef</span>
+              <h3 class="cert-name">Database Management Systems</h3>
+              <p class="cert-desc">Relational database design, SQL querying, normalization, transaction management, and indexing concepts.</p>
+              <div class="cert-link-placeholder">
+                <span class="badge-verified"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                <!-- Replace href with your actual credential verification URL -->
+                <a href="#" class="cert-anchor" title="Add credential verification URL" target="_blank" rel="noopener noreferrer">
+                  <span>Verify Credential</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i class="fa-solid fa-code-branch"></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">CodeChef</span>
+              <h3 class="cert-name">Design and Analysis of Algorithms</h3>
+              <p class="cert-desc">Algorithmic complexity, dynamic programming, greedy algorithms, divide-and-conquer, and graph theory problem-solving.</p>
+              <div class="cert-link-placeholder">
+                <span class="badge-verified"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                <!-- Replace href with your actual credential verification URL -->
+                <a href="#" class="cert-anchor" title="Add credential verification URL" target="_blank" rel="noopener noreferrer">
+                  <span>Verify Credential</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section class="interests section" id="interests">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Passions &amp; Focus</span>
+          <h2 class="section-title">Interests</h2>
+          <p class="section-subtitle">Areas of academic passion and personal pursuits that shape my perspective.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="interests-container">
+          <!-- Technical Interests -->
+          <div class="interests-group">
+            <h3 class="group-title">
+              <i class="fa-solid fa-laptop-code"></i> Technical Focus Areas
+            </h3>
+            <div class="interest-chips">
+              <div class="interest-chip">
+                <i class="fa-solid fa-robot"></i>
+                <span>Artificial Intelligence</span>
+              </div>
+              <div class="interest-chip">
+                <i class="fa-solid fa-brain"></i>
+                <span>Machine Learning</span>
+              </div>
+              <div class="interest-chip">
+                <i class="fa-solid fa-network-wired"></i>
+                <span>Deep Learning</span>
+              </div>
+              <div class="interest-chip">
+                <i class="fa-solid fa-eye"></i>
+                <span>Computer Vision</span>
+              </div>
+              <div class="interest-chip">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>Generative AI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personal Interests -->
+          <div class="interests-group">
+            <h3 class="group-title">
+              <i class="fa-solid fa-heart"></i> Beyond Academics
+            </h3>
+            <div class="interest-chips">
+              <div class="interest-chip personal">
+                <i class="fa-solid fa-microphone-lines"></i>
+                <span>Singing</span>
+              </div>
+              <div class="interest-chip personal">
+                <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                <span>Badminton</span>
+              </div>
+              <div class="interest-chip personal">
+                <i class="fa-solid fa-plane-departure"></i>
+                <span>Travelling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Contact Information</h2>
+          <p class="section-subtitle">Feel free to reach out for opportunities, collaborations, or technical discussions.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-cards">
+            <!-- Email Item -->
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-regular fa-envelope"></i></div>
+              <div class="contact-detail">
+                <h4>Email Address</h4>
+                <p class="placeholder-text"><a href="mailto:yasaswini8888@gmail.com">yasaswini8888@gmail.com</a></p>
+              </div>
+            </div>
+
+            <!-- LinkedIn Item -->
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-detail">
+                <h4>LinkedIn</h4>
+                <p class="placeholder-text"><a href="https://www.linkedin.com/in/neelisetty-yasaswini-9b25272b6" target="_blank" rel="noopener noreferrer">linkedin.com/in/neelisetty-yasaswini-9b25272b6</a></p>
+              </div>
+            </div>
+
+            <!-- GitHub Item -->
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-detail">
+                <h4>GitHub</h4>
+                <p class="placeholder-text"><a href="https://github.com/Yasaswini0801" target="_blank" rel="noopener noreferrer">github.com/Yasaswini0801</a></p>
+              </div>
+            </div>
+
+            <!-- Phone Item (Optional) -->
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-detail">
+                <h4>Phone</h4>
+                <!-- Placeholder: replace with your genuine phone number or keep private -->
+                <p class="placeholder-text">+91 XXXXX XXXXX</p>
+                <span class="hint-badge"><i class="fa-solid fa-pen"></i> Add your phone (optional)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-container">
+            <h3 class="form-title">Send a Message</h3>
+            <p class="form-desc">Have a question or proposal? Send a note directly below.</p>
+            
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="e.g. Internship Opportunity / Collaboration" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                <span>Send Message</span>
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
+
+              <div id="form-status" class="form-status" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">
+          <span class="logo-accent">&lt;</span>Neelisetty Yasaswini<span class="logo-accent">/&gt;</span>
+        </a>
+        <p class="footer-text">
+          Computer Science &amp; Engineering (AI &amp; ML) &bull; Kalasalingam University
+        </p>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> Neelisetty Yasaswini. All rights reserved.</p>
+        <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">
+          <i class="fa-solid fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
